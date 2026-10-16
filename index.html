@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catgrep SRL</title>
+  <meta name="description" content="Catgrep SRL: software engineering consulting in Brussels, and the studio behind Tailwind, a dice-driven sailing race for iPhone.">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/lang.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="sun" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="top">
+        <a class="brand" href="./">cat<span>grep</span></a>
+        <nav>
+          <a href="#consulting"><span class="en">Consulting</span><span class="fr">Conseil</span></a>
+          <a href="tailwind/">Tailwind</a>
+          <button class="lang" type="button" aria-label="Language">FR</button>
+        </nav>
+      </div>
+      <h1>Catgrep SRL</h1>
+      <p class="lead">
+        <span class="en">A very small Brussels company that does software engineering consulting and, since recently, makes a sailing game. Mostly in that order.</span>
+        <span class="fr">Une toute petite société bruxelloise qui fait du conseil en ingénierie logicielle et, depuis peu, un jeu de voile. Plutôt dans cet ordre-là.</span>
+      </p>
+      <div class="terminal">$ cat company.txt | grep <b>-i "fun"</b></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="consulting">
+      <h2><span class="en">Consulting</span><span class="fr">Conseil</span></h2>
+      <p class="prose">
+        <span class="en">Catgrep is the consulting company of <a href="https://www.linkedin.com/in/paulrenson/">Paul Renson</a>. Today Paul is Head of Engineering &amp; Data at <a href="https://www.sortlist.com">Sortlist</a>, where he helps a team of engineers ship product, keep the data honest and spend their days arguing politely with AI agents. Before that: a decade of writing actual code (iOS, full stack, one co-founded startup), which he still does whenever nobody is watching.</span>
+        <span class="fr">Catgrep, c'est la société de conseil de <a href="https://www.linkedin.com/in/paulrenson/">Paul Renson</a>. Aujourd'hui, Paul est Head of Engineering &amp; Data chez <a href="https://www.sortlist.be">Sortlist</a>, où il aide une équipe d'ingénieurs à livrer du produit, à garder des données honnêtes et à passer leurs journées à discuter poliment avec des agents IA. Avant ça : une dizaine d'années à écrire du vrai code (iOS, full stack, une startup cofondée), ce qu'il fait encore dès que personne ne regarde.</span>
+      </p>
+      <div class="cards">
+        <div class="card">
+          <h3><span class="en">Engineering leadership</span><span class="fr">Direction technique</span></h3>
+          <p><span class="en">Teams, delivery, architecture, the occasional difficult conversation. Meetings kept short on purpose.</span><span class="fr">Équipes, delivery, architecture, et parfois une conversation difficile. Réunions courtes, exprès.</span></p>
+        </div>
+        <div class="card">
+          <h3><span class="en">Data &amp; AI</span><span class="fr">Data &amp; IA</span></h3>
+          <p><span class="en">Data models, dashboards people actually open, and AI agents that do real work instead of demos.</span><span class="fr">Modèles de données, dashboards que les gens ouvrent vraiment, et agents IA qui travaillent pour de vrai, pas juste en démo.</span></p>
+        </div>
+        <div class="card">
+          <h3><span class="en">Hands on keyboard</span><span class="fr">Les mains dans le code</span></h3>
+          <p><span class="en">iOS, web, backend. Still writes code, still reads the stack trace before blaming the network.</span><span class="fr">iOS, web, backend. Écrit toujours du code, lit toujours la stack trace avant d'accuser le réseau.</span></p>
+        </div>
+      </div>
+      <p class="prose">
+        <span class="en">About the name: yes, <code>cat file | grep pattern</code> is a useless use of cat. <code>grep pattern file</code> does the same job. We know. We kept the cat.</span>
+        <span class="fr">Pour le nom : oui, <code>cat fichier | grep motif</code> est un usage inutile de cat. <code>grep motif fichier</code> fait la même chose. On sait. On a gardé le chat.</span>
+      </p>
+    </section>
+
+    <section id="tailwind">
+      <div class="split">
+        <img src="assets/tailwind-icon.png" alt="Tailwind app icon" width="512" height="512">
+        <div>
+          <span class="pill"><span class="en">Coming soon to the App Store</span><span class="fr">Bientôt sur l'App Store</span></span>
+          <h2 style="margin-top:.4em">Tailwind</h2>
+          <p>
+            <span class="en">Tailwind is a dice-driven sailing race in a hand-drawn storybook world. Pick your die, merge them, ride the others' wake and the dolphins all the way to Admiral Corbeau's Armada.</span>
+            <span class="fr">Tailwind est une course de voiliers aux dés, façon carnet de bord dessiné à la main. Choisis ton dé, fusionne-les, prends le sillage des autres et file avec les dauphins jusqu'à l'Armada de l'Amiral Corbeau.</span>
+          </p>
+          <p>
+            <span class="en">Made by Catgrep Studio, which is the same person as above, on evenings he should have spent sleeping.</span>
+            <span class="fr">Fait par Catgrep Studio, c'est-à-dire la même personne qu'au-dessus, les soirs où il aurait dû dormir.</span>
+          </p>
+          <a class="btn" href="tailwind/"><span class="en">Discover Tailwind</span><span class="fr">Découvrir Tailwind</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        <span class="en">Project, question or just want to say hi: </span><span class="fr">Un projet, une question ou juste envie de dire bonjour : </span><a href="mailto:hello@catgrep.be">hello@catgrep.be</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap legal">
+      <span>CATGREP SRL</span>
+      <span><span class="en">Company number</span><span class="fr">BCE / TVA</span> BE 0739.978.158</span>
+      <span>Boulevard du Roi Albert II 4, 1000 Bruxelles, <span class="en">Belgium</span><span class="fr">Belgique</span></span>
+      <a href="mailto:hello@catgrep.be">hello@catgrep.be</a>
+    </div>
+  </footer>
+</body>
+</html>
