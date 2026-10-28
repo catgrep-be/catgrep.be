@@ -1,0 +1,25 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:transparent}
+  .logo{width:512px;height:512px;box-sizing:border-box;border-radius:112px;display:flex;align-items:center;justify-content:center;
+    font-family:"Lilita One",sans-serif;font-size:250px;line-height:1;letter-spacing:-4px;position:relative;overflow:hidden}
+  .pipe{display:inline-block;width:30px;height:250px;border-radius:15px;margin:0 22px;transform:translateY(6px) rotate(8deg)}
+  /* A: navy terminal */
+  .a{background:#10213f;color:#fff7ea;border:14px solid #10213f}
+  .a .pipe{background:#ff7a2f}
+  .a .g{color:#ffd23f}
+  /* B: sky + sea, like the hero */
+  .b{background:linear-gradient(#63c1ff 0 62%,#2b8de0 62% 100%);color:#10213f;border:14px solid #10213f}
+  .b .pipe{background:#ff7a2f;box-shadow:0 0 0 6px #10213f}
+  .b .g{color:#fff7ea;-webkit-text-stroke:10px #10213f;paint-order:stroke fill}
+  .b .c{color:#fff7ea;-webkit-text-stroke:10px #10213f;paint-order:stroke fill}
+  /* C: cream with prompt */
+  .c3{background:#fff7ea;color:#10213f;border:14px solid #10213f;box-shadow:inset 0 -26px 0 #ffd23f}
+  .c3 .pipe{background:#ff7a2f}
+  .c3 .prompt{position:absolute;left:48px;top:40px;font:800 64px "JetBrains Mono",monospace;color:#ff7a2f;letter-spacing:0}
+</style></head>
+<body>
+<div class="logo VARIANT"><span class="c">C</span><span class="pipe"></span><span class="g">G</span><span class="prompt">PROMPT</span></div>
+</body></html>
